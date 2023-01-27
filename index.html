@@ -8,17 +8,8 @@
     <title>高三丙</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/img.css">
-    <script src='js/echarts.min.js'></script>
+    <link rel="stylesheet" type="" href="css/mobile.css">
     <script src='js/img.js'></script>
-    <script>
-            //判断是手机还是电脑
-    if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
-        window.location.href = "mobile/index.html"; //手机
-    } else {
-        window.location.href = "index.html"; //电脑
-    }
-    </script>
-
 
 
     <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
@@ -28,6 +19,64 @@
 
 <body>
 
+    <div class = "mobile" >
+        <div class="header">
+            <div class="w">
+
+            </div>
+        </div>
+        <div class="banner">
+            <img src="images/合照.JPG" alt="" class="groupphoto">
+        </div>
+
+        <div class="main">
+            <ul class="card-list">
+
+                <li class="card">
+                <a class="card-image" target="_blank" style="background-image: url(images/henry.JPG);" data-image-full="images/henry.JPG">
+                    <img src=" images/henry.JPG " alt="Psychopomp " />
+                </a>
+                <a class="card-description " target="_blank ">
+                    <h2>Psychopomp</h2>
+                    <p>Japanese Breakfast</p>
+                </a>
+                </li>
+
+                <li class="card ">
+                    <a class="card-image " target="_blank " style="background-image: url(images/fok.jpg); " data-image-full="images/fok.jpg">
+                    <img src="images/fok.jpg" alt="let 's go" />
+                    </a>
+                    <a class="card-description" target="_blank">
+                        <h2>let's go</h2>
+                        <p>In Love With A Ghost</p>
+                    </a>
+                </li>
+
+            <li class="card">
+                <a class="card-image" target="_blank" style="background-image: url(images/daniel.jpg);" data-image-full="images/daniel.jpg">
+                    <img src="images/daniel.jpg" alt="The Beautiful Game" />
+                </a>
+                <a class="card-description" target="_blank">
+                    <h2>The Beautiful Game</h2>
+                    <p>Vulfpeck</p>
+                </a>
+            </li>
+
+            <li class="card">
+                <a class="card-image" target="_blank" style="background-image: url(images/leo.jpg);" data-image-full="images/leo.jpg">
+                    <img src="images/leo.jpg" alt="Jane Doe" />
+                </a>
+                <a class="card-description" target="_blank">
+                    <h2>Jane Doe</h2>
+                    <p>Converge</p>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+    
+    </div>
+    <div class = "PC">
     <div class="header">
         <div class="w">
 
@@ -38,8 +87,6 @@
         <div class="title w">
             <img src="images/合照.JPG" alt="" class="groupphoto">
         </div>
-
-
     </div>
 
     <div class="main">
@@ -87,7 +134,9 @@
 
         </ul>
     </div>
+    </div>
 
+    <script src='js/script.js'></script>
 </body>
 
 </html>
