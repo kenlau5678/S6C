@@ -15,9 +15,20 @@ html {
     margin-bottom: 30px;
 }
 
+.w {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.w p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
 span {
     display: inline-block;
-    width: 50px;
+    width: 250px;
     height: 5px;
     background-color: #2D58C4;
     margin-bottom: 30px;
@@ -44,6 +55,14 @@ a:hover::before {
     transform-origin: 0% 50%;
 }
 
+.container img {
+    height: 420px;
+}
+
+h2 {
+    color: #FB8E2A;
+}
+
 div.site {
     background-color: #f2f2f2;
     display: flex;
@@ -65,7 +84,7 @@ div.container {
 div.img {
     height: 300px;
     width: 100%;
-    background: url("../images/leo.jpg");
+    background: url("../images/謝師宴合照.JPG");
     background-position: center;
     background-size: cover;
 }
@@ -93,4 +112,8 @@ div.text-container {
     div.container {
         max-width: 1200px;
     }
+}
+
+.bottom {
+    height: 480px
 }
