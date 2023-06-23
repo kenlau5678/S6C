@@ -26,6 +26,10 @@ html {
     font-weight: 700;
 }
 
+.bottom p {
+    color: #f2f2f2;
+}
+
 span {
     display: inline-block;
     width: 250px;
@@ -84,7 +88,7 @@ div.container {
 div.img {
     height: 300px;
     width: 100%;
-    background: url("../images/謝師宴合照.JPG");
+    background: url("../images/未命名-3.png");
     background-position: center;
     background-size: cover;
 }
@@ -115,5 +119,9 @@ div.text-container {
 }
 
 .bottom {
-    height: 480px
+    height: 48px
+}
+
+.bottom .w {
+    padding: 0;
 }
